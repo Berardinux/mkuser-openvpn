@@ -1,0 +1,14 @@
+# Script README
+
+This script automates the process of creating a new user, installing OpenVPN, and displaying the contents of .ovpn files.
+
+## Prerequisites
+
+- This script is intended for use on a Linux-based system.
+- Make sure you are root when you run this script.
+
+## Usage
+
+1. Download the script:
+   ```bash
+   curl -O <script_url>
