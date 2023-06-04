@@ -9,6 +9,9 @@ This script automates the process of creating a new user, installing OpenVPN, an
 
 ## Usage
 
-1. Download the script:
+1. Download the script and run it:
    ```bash
-   curl -O <script_url>
+   git clone https://github.com/Berardinux/mkuser-openvpn.git
+   cd mkuser-openvpn/
+   chmod 777 mkuser-openvpn.sh
+   ./mkuser-openvpn.sh
