@@ -9,10 +9,8 @@ apt install curl
 curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 chmod 777 openvpn-install.sh
 ./openvpn-install.sh
+file=$(ls /root | grep .ovpn)
+mv /root/$file /home/$name
 clear
-for file in *.ovpn; do
-    if [[ -f "$file" ]]; then
-        cat "$file"
-    fi
-done
+cat /home/$name/$file
 su $name
